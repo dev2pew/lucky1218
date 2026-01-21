@@ -41,7 +41,7 @@ This note contains mods for my personal `Minecraft` setup version `1.21.8` with 
 - Mods sounds volume should follow `Minecraft` sound settings
     - Environment (Ambience, Weather, `...`) at `90%`
     - Music and UI at `60%`
-    - Entities (Player, Mobs, `...`) at `80%
+    - Entities (Player, Mobs, `...`) at `80%`
 - Shadows and other entities render and simulate at `16` chunks
 
 ## Screenshots
