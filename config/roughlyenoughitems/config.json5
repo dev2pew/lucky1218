@@ -186,7 +186,8 @@
 					"roughlyenoughitems:plugins/information",
 					"farmersdelight:plugin/cooking",
 					"farmersdelight:plugin/cutting",
-					"farmersdelight:plugin/decomposition"
+					"farmersdelight:plugin/decomposition",
+					"roughlyenoughprofessions:plugins/profession"
 				],
 				"hiddenCategories": []
 			}
@@ -196,8 +197,7 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}",
-				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}"
 			]
 		}
 	}
