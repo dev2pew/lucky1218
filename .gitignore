@@ -1,0 +1,34 @@
+# ignore all
+*
+
+# include
+!.gitignore
+!README.md
+
+!config/
+!config/**
+
+!mods/
+!mods/**
+
+!resourcepacks/
+!resourcepacks/**
+
+!shaderpacks/
+!shaderpacks/**
+
+!options.txt
+!clean.bat
+!winevent.ps1
+
+# ignore caches and path based configs
+config/worldedit/sessions/**
+
+config/replaymod-screenshotsettings.json
+
+config/crash_assistant/modlist.json
+config/skinrestore/mojang_profile_cache.json
+config/jade/profiles/usernamecache.json
+config/skinshuffle/presets.json
+config/skinshuffle/skin-caches.json
+config/voicechat/username-cache.json
