@@ -8,11 +8,11 @@ This note contains mods for my personal `Minecraft` setup version `1.21.8` with 
 |       | Unverified     | Mod is yet to be downloaded and verified                                                                                                                  |
 | 📥    | Not Downloaded | Mod is not downloaded                                                                                                                                     |
 | ☑     | Verified       | Basic mod information and metadata such as description, dependencies, suggestions, incompatibilities and extra resources are collected and double-checked |
-| ⏳    | Staged         | Mod is being staged, meaning it needs to be activated for testing in the next run                                                                         |
-| ✅    | Installed      | Installed and active in the game setup, meaning the game starts and the mod needs to be configured                                                        |
+| ⏳     | Staged         | Mod is being staged, meaning it needs to be activated for testing in the next run                                                                         |
+| ✅     | Installed      | Installed and active in the game setup, meaning the game starts and the mod needs to be configured                                                        |
 | 🟩    | Tested         | Installed and was thoroughly tested for bugs and compatibility with the existing setup                                                                    |
 | 🟥    | Failed         | Has problems such as incompatibilities or performance issues                                                                                              |
-| 🕸     | Discarded      | Discarded during parsing stage or simply because I did not like the mod                                                                                   |
+| 🕸    | Discarded      | Discarded during parsing stage or because of personal preference                                                                                          |
 
 ## Issues
 
