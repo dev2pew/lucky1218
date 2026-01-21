@@ -1,0 +1,17 @@
+{
+  "timeDate": "HH:mm",
+  "timeColor": "#8080C0",
+  "hover": false,
+  "hoverDate": "MM/dd/yyyy HH:mm:ss",
+  "counterColor": "#8080C0",
+  "compactChat": true,
+  "compactDistance": 4,
+  "boundary": false,
+  "boundaryColor": "#8080C0",
+  "name": false,
+  "chatMaxMessages": 8192,
+  "contextMenu": false,
+  "contextOutlineColor": "#8080C0",
+  "searchDrafting": false,
+  "caseSensitive": false
+}

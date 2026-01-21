@@ -1,0 +1,56 @@
+{
+  "maxLevel": 39,
+  "combineHigher": false,
+  "compatibility": {
+    "minecraft:mending": [
+      "minecraft:infinity"
+    ],
+    "minecraft:multishot": [
+      "minecraft:piercing"
+    ],
+    "minecraft:sharpness": [
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ],
+    "minecraft:smite": [
+      "minecraft:bane_of_arthropods",
+      "minecraft:sharpness"
+    ],
+    "minecraft:bane_of_arthropods": [
+      "minecraft:sharpness",
+      "minecraft:smite"
+    ],
+    "minecraft:density": [
+      "minecraft:breach",
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ],
+    "minecraft:breach": [
+      "minecraft:density",
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ],
+    "minecraft:protection": [
+      "minecraft:projectile_protection",
+      "minecraft:blast_protection",
+      "minecraft:fire_protection"
+    ],
+    "minecraft:projectile_protection": [
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:protection"
+    ],
+    "minecraft:blast_protection": [
+      "minecraft:fire_protection",
+      "minecraft:protection",
+      "minecraft:projectile_protection"
+    ],
+    "minecraft:fire_protection": [
+      "minecraft:protection",
+      "minecraft:projectile_protection",
+      "minecraft:blast_protection"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "key": "controllable.key.open_controllable_settings",
+    "color": "BLUE"
+  },
+  {
+    "key": "key.advancements",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.screenshot",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.fullscreen",
+    "color": "YELLOW"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "pingVolume": 60,
+  "pingDuration": 16,
+  "pingDistance": 2048,
+  "correctionPeriod": 4.0,
+  "itemIconVisible": true,
+  "directionIndicatorVisible": true,
+  "playerInfoMode": "DISABLED",
+  "teamColorMode": "DISABLED",
+  "pingSize": 256,
+  "channel": "",
+  "serverChannels": {},
+  "removeRadius": 8,
+  "raycastDistance": 1024,
+  "safeZoneLeft": 8,
+  "safeZoneRight": 8,
+  "safeZoneTop": 8,
+  "safeZoneBottom": 64
+}

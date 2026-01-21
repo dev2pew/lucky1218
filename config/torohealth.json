@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "hudOptions": {
+    "showHUD": true,
+    "showEntity": false,
+    "frameStyle": "LIGHT",
+    "healthChangeType": "LAST",
+    "onlyWhenHurt": false,
+    "hudDistance": 4.0,
+    "hudHideDelay": 16,
+    "anchorPoint": "BOTTOM_LEFT",
+    "hudXPosition": 8,
+    "hudYPosition": -16,
+    "hudScale": 1
+  },
+  "particleOptions": {
+    "showParticle": false,
+    "particleLightMode": "WORLD_LIGHT",
+    "particleDistance": 64.0,
+    "damageColor": "#FF0000",
+    "healColor": "#00FF00"
+  },
+  "inWorldBarOptions": {
+    "inWorldBarVisibilityMode": "WHEN_HOLDING_WEAPON",
+    "inWorldBarLightMode": "ENTITY_LIGHT",
+    "onlyWhenLookingAt": false,
+    "onlyWhenHurt": true,
+    "inWorldBarDistance": 64.0
+  },
+  "barColor": {
+    "friendColor": "#00FF00",
+    "friendColorSecondary": "#008000",
+    "foeColor": "#FF0000",
+    "foeColorSecondary": "#800000"
+  }
+}

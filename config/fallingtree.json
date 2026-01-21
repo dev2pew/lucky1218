@@ -1,0 +1,53 @@
+{
+  "trees": {
+    "allowedLogs": [
+      "minecraft:bee_nest"
+    ],
+    "deniedLogs": [],
+    "allowedLeaves": [],
+    "allowedNonDecayLeaves": [],
+    "deniedLeaves": [],
+    "breakMode": "FALL_BLOCK",
+    "detectionMode": "ABOVE_CUT",
+    "detectionModeBiomeOverride": {},
+    "maxScanSize": 512,
+    "minSize": 0,
+    "maxSize": 128,
+    "maxLeafDistanceFromLog": 16,
+    "maxSizeAction": "ABORT",
+    "breakOrder": "CLOSEST_FIRST",
+    "minimumLeavesAroundRequired": 2,
+    "includePersistentLeavesInRequiredCount": true,
+    "treeBreaking": true,
+    "leavesBreaking": true,
+    "leavesBreakingForceRadius": 0,
+    "allowMixedLogs": true,
+    "breakNetherTreeWarts": true,
+    "breakMangroveRoots": true,
+    "searchAreaRadius": 192,
+    "allowedAdjacentBlocks": [],
+    "adjacentStopMode": "STOP_ALL",
+    "spawnItemsAtBreakPoint": false,
+    "trunkLootPercentage": 0.8
+  },
+  "tools": {
+    "allowed": [],
+    "denied": [],
+    "durabilityMode": "BYPASS",
+    "ignoreTools": false,
+    "damageMultiplicand": 1.0,
+    "damageRounding": "ROUND_DOWN",
+    "speedMultiplicand": 0.0,
+    "forceToolUsage": true
+  },
+  "player": {
+    "allowedTags": []
+  },
+  "enchantment": {
+    "requireEnchantment": false
+  },
+  "sneakMode": "SNEAK_DISABLE",
+  "breakInCreative": true,
+  "lootInCreative": false,
+  "notificationMode": "NONE"
+}

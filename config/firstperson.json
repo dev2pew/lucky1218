@@ -1,0 +1,26 @@
+{
+  "configVersion": 2,
+  "enabledByDefault": true,
+  "xOffset": 0,
+  "sneakXOffset": 0,
+  "sitXOffset": 0,
+  "renderStuckFeatures": true,
+  "vanillaHandsMode": "OFF",
+  "dynamicMode": true,
+  "vanillaHandsSkipSwimming": true,
+  "autoVanillaHands": [
+    "minecraft:filled_map",
+    "create:potato_cannon",
+    "create:handheld_worldshaper",
+    "create:extendo_grip",
+    "twilightforest:filled_ore_map",
+    "twilightforest:filled_magic_map",
+    "twilightforest:filled_maze_map",
+    "map_atlases:atlas",
+    "antiqueatlas:antique_atlas"
+  ],
+  "autoToggleModItems": [
+    "exposure:camera"
+  ],
+  "hiddenLayers": []
+}

@@ -1,0 +1,8 @@
+{
+  "enable_heads": "YES",
+  "enable_head_drops": "NO",
+  "enable_additional_loot": "YES",
+  "enable_additional_valuable_loot": "NO",
+  "enable_upside_down_spiders": "NO",
+  "enable_let_undead_mobs_burn_in_daylight": "NO"
+}
