@@ -5,8 +5,8 @@
   "teamBorderThickness": "THIN",
   "borderStyle": "TEAM_COLOR",
   "staticBorderColor": "WHITE",
-  "headSizeMultiplier": 2,
-  "showPlayerNames": "OFF",
+  "headSizeMultiplier": 4,
+  "showPlayerNames": "PLAYER_LIST",
   "playerFilterMode": "ALL",
   "includedPlayers": "",
   "excludedPlayers": ""
