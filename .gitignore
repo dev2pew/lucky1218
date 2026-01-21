@@ -22,6 +22,7 @@
 !winevent.ps1
 
 # ignore caches and path based configs
+config/worldedit/.archive-unpack/**
 config/worldedit/sessions/**
 
 config/replaymod-screenshotsettings.json
