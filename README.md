@@ -1,0 +1,1 @@
+../../../../../../Documents/obsidian/vaults/me/memo/notes/19 - mc.md
