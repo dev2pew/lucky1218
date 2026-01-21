@@ -1,0 +1,8 @@
+{
+	"enableRecursiveOpening": true,
+	"recursiveOpeningMaxBlocksDistance": 4,
+	"enableDoors": true,
+	"enableFenceGates": true,
+	"enableTrapdoors": true,
+	"enableModIncompatibilityCheck": false
+}

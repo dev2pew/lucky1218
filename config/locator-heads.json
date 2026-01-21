@@ -1,0 +1,13 @@
+{
+  "enableMod": true,
+  "renderHeads": true,
+  "enableTeamBorder": false,
+  "teamBorderThickness": "THIN",
+  "borderStyle": "TEAM_COLOR",
+  "staticBorderColor": "WHITE",
+  "headSizeMultiplier": 2,
+  "showPlayerNames": "OFF",
+  "playerFilterMode": "ALL",
+  "includedPlayers": "",
+  "excludedPlayers": ""
+}

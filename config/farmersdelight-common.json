@@ -1,0 +1,74 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "settings": {
+    "enableVanillaCropCrates": true,
+    "farmersBuyFDCrops": true,
+    "wanderingTraderSellsFDItems": true,
+    "richSoilBoostChance": 0.16,
+    "cuttingBoardFortuneBonus": 0.08,
+    "enableRopeReeling": true,
+    "canvasSignDarkBackgroundList": [
+      "gray",
+      "purple",
+      "blue",
+      "brown",
+      "green",
+      "red",
+      "black"
+    ]
+  },
+  "farming": {
+    "defaultTomatoVineRope": "farmersdelight:rope",
+    "enableTomatoVineClimbingTaggedRopes": true
+  },
+  "recipe_book": {
+    "enableRecipeBookCookingPot": true
+  },
+  "overrides": {
+    "vanillaSoupExtraEffects": true,
+    "rabbitStewBuff": true,
+    "dispenserUsesToolsOnCuttingBoard": true,
+    "stack_size": {
+      "enableStackableSoupItems": true,
+      "soupItemList": [
+        "minecraft:mushroom_stew",
+        "minecraft:beetroot_soup",
+        "minecraft:rabbit_stew"
+      ]
+    }
+  },
+  "world": {
+    "generateFDChestLoot": true,
+    "genVillageCompostHeaps": true,
+    "genFDCropsOnVillageFarms": true,
+    "wild_cabbages": {
+      "chance": 256
+    },
+    "wild_beetroots": {
+      "chance": 256
+    },
+    "wild_potatoes": {
+      "chance": 256
+    },
+    "wild_carrots": {
+      "chance": 512
+    },
+    "wild_onions": {
+      "chance": 512
+    },
+    "wild_tomatoes": {
+      "chance": 512
+    },
+    "wild_rice": {
+      "chance": 64
+    },
+    "brown_mushroom_colonies": {
+      "genBrownMushroomColony": true,
+      "chance": 32
+    },
+    "red_mushroom_colonies": {
+      "genRedMushroomColony": true,
+      "chance": 32
+    }
+  }
+}

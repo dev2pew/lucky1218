@@ -1,0 +1,8 @@
+{
+	"blacklistedMods": [],
+	"clientExcludedMods": [],
+	"modOverrideWhitelist": [],
+	"disableAutoConfig": false,
+	"disableAutoConfigScreens": false,
+	"autoConfigSubPath": "cristellib/"
+}

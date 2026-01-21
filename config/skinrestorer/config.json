@@ -1,0 +1,46 @@
+{
+  "language": "en_us",
+  "refreshSkinOnJoin": true,
+  "skinApplyDelayOnJoin": 0,
+  "fetchSkinOnFirstJoin": true,
+  "forceFirstJoinSkinFetch": false,
+  "firstJoinSkinProvider": "MOJANG",
+  "proxy": "",
+  "requestTimeout": 16,
+  "providers": {
+    "mojang": {
+      "enabled": true,
+      "name": "mojang",
+      "cache": {
+        "enabled": true,
+        "duration": 64
+      }
+    },
+    "ely_by": {
+      "enabled": true,
+      "name": "ely.by",
+      "cache": {
+        "enabled": true,
+        "duration": 64
+      }
+    },
+    "mineskin": {
+      "apiKey": "",
+      "enabled": true,
+      "name": "web",
+      "cache": {
+        "enabled": true,
+        "duration": 256
+      }
+    },
+    "collection": {
+      "sources": [],
+      "enabled": false,
+      "name": "collection",
+      "cache": {
+        "enabled": true,
+        "duration": 604800
+      }
+    }
+  }
+}
