@@ -5,6 +5,9 @@
 !.gitignore
 !README.md
 
+!docs/
+!docs/**
+
 !config/
 !config/**
 
