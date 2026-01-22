@@ -166,7 +166,7 @@ or...
 
 - Languages Screen
 
-![menu screenshot `6`](docs/imgs/3180_javaw.png)\
+![menu screenshot `6`](docs/imgs/3180_javaw.png)
 
 - Accessibility Screen
 
