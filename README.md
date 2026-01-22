@@ -45,15 +45,170 @@ This note contains mods for my personal `Minecraft` setup version `1.21.8` with 
     - Entities (Player, Mobs, `...`) at `80%`
 - Shadows and other entities render and simulate at `16` chunks
 
+## Notes
+
+Keybinds...
+
+```
+<ESC>               -   pause
+1/2/3/4/5/6/7/8/9   -   select hotbar slot
+W/A/S/D             -   movement
+<LMB>               -   break
+<RMB>               -   place
+<MB1>               -   pick block
+<SHIFT>             -   sneak
+
+<MOUSE>             -   steer elytra
+W/S                 -   thrust forward/backward
+A/D                 -   yaw left/right
+
+↑/↓                 -   pitch up/down
+←/→                 -   yaw left/right
+
+<TAB>               -   show players
+<T>                 -   open chat
+</>                 -   input command
+
+<G>                 -   ping location/item/entity
+
+<C>                 -   voice groups
+<V>                 -   voice settings
+<R>                 -   push to talk
+
+<N>                 -   new waypoint
+<Z>                 -   cycle zoom map
+<X>                 -   maximize map
+<M>                 -   open map
+
+```
+
+Helpful commands...
+
+- Set skin...
+
+```
+/skin set <source> <type> <url> <player>
+
+```
+
+For example...
+
+```plain
+/skin set mojang lucky
+
+```
+
+or...
+
+```plain
+/skin set ely.by panda
+
+```
+
+or...
+
+```plain
+/skin set web slim "https://<...>"
+
+```
+
+- Get `WorldEdit` wand...
+
+```plain
+//wand
+
+```
+
+- Set wand selection...
+
+```plain
+//set <block>
+
+```
+
+- Replace blocks in wand selection...
+
+```plain
+//replace <block>
+
+```
+
+- Quickly create voice chat group...
+
+```plain
+/instantgroup <range>
+
+```
+
 ## Screenshots
+
+### Main Menu
+
+- Title Screen
+
+![menu screenshot `1`](docs/imgs/3175_javaw.jpg)
+
+- Single Player
+
+![menu screenshot `2`](docs/imgs/3176_javaw.png)
+
+- Multi-Player
+
+![menu screenshot `3`](docs/imgs/3177_javaw.png)
+
+- Replays Screen
+
+![menu screenshot `4`](docs/imgs/3178_javaw.png)
+
+- Mods Screen
+
+![menu screenshot `5`](docs/imgs/3179_javaw.png)
+
+- Languages Screen
+
+![menu screenshot `6`](docs/imgs/3180_javaw.png)\
+
+- Accessibility Screen
+
+![menu screenshot `7`](docs/imgs/3181_javaw.png)
+
+- Options Screen
+
+![menu screenshot `8`](docs/imgs/3182_javaw.png)
+
+- Texture Packs
+
+![menu screenshot `9`](docs/imgs/3183_javaw.png)
+
+### New World
+
+![menu screenshot `10`](docs/imgs/3184_javaw.png)
+
+![menu screenshot `11`](docs/imgs/3185_javaw.png)
+
+### Demo
+
+![gameplay screenshot `1`](docs/imgs/3186_javaw.jpg)
+
+![gameplay screenshot `2`](docs/imgs/3187_javaw.png)
+
+![gameplay screenshot `3`](docs/imgs/3188_javaw.png)
+
+![gameplay screenshot `4`](docs/imgs/3189_javaw.jpg)
+
+![gameplay screenshot `5`](docs/imgs/3190_javaw.png)
+
+![gameplay screenshot `6`](docs/imgs/3191_javaw.png)
+
+![gameplay screenshot `7`](docs/imgs/3192_javaw.jpg)
 
 ### Gameplay
 
-![gameplay screenshot `1` - first person](docs/imgs/3171_javaw.jpg)
+![gameplay screenshot `8`](docs/imgs/3171_javaw.jpg)
 
-![gameplay screenshot `2` - first person](docs/imgs/3173_javaw.jpg)
+![gameplay screenshot `9`](docs/imgs/3173_javaw.jpg)
 
-![gameplay screenshot `3` - third person](docs/imgs/3174_javaw.jpg)
+![gameplay screenshot `10`](docs/imgs/3174_javaw.jpg)
 
 ## Libraries and APIs
 
