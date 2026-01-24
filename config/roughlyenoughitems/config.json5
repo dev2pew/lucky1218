@@ -3,7 +3,7 @@
 		"favorites": [],
 		"hiddenFavorites": [],
 		"displayHistory": [],
-		"cheating": true,
+		"cheating": "WHEN_CREATIVE",
 		"favoritesEnabled": false,
 		"reduceMotion": true,
 		"keyBindings": {
