@@ -70,6 +70,6 @@ FOR /R %%F IN (*
     ATTRIB +H "%%F"
 )
 
-FOR /R %%D IN (*.rem\ *.bak\ *.old\ *.log\) DO (
+FOR /R %%D IN (*.gitignore\ *.rem\ *.bak\ *.old\ *.log\) DO (
     ATTRIB +H "%%D"
 )
