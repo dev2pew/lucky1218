@@ -30,16 +30,23 @@ IF /I "%confirm%"=="y" (
 
 git.exe stash push -m "config.tmp" -- config/ >NUL
 git.exe stash push -u -m "mods.rem" >NUL
-git.exe stash drop "stash^{/mods.rem}" >NUL
-git.exe pull --rebase origin main
-git.exe stash pop >NUL
 
-@REM HIDE FILES
+git.exe stash list | FINDSTR /I "mods.rem" >NUL
+IF NOT ERRORLEVEL 1 (
+    git.exe stash drop "stash^{/mods.rem}" >NUL
+)
+
+git.exe pull --rebase origin main
+
+git.exe stash list | FINDSTR /I "config.tmp" >NUL
+IF NOT ERRORLEVEL 1 (
+    git.exe stash pop >NUL
+)
+
 FOR /R %%F IN (*.rem *.bak) DO (
     ATTRIB +H "%%F"
 )
 
-@REM HIDE DIRS
 FOR /R %%D IN (*.rem\ *.bak\) DO (
     ATTRIB +H "%%D"
 )
