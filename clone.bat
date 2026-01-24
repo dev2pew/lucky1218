@@ -19,7 +19,7 @@ IF EXIST ".git" (
 
 :ASK
 
-SET /P confirm="are you sure, your data will be lost... (Y/n) >> "
+SET /P confirm="your data will be lost, continue?... (Y/n) >> "
 IF /I "%confirm%"=="y" (
     GOTO MAIN
 ) ELSE {
