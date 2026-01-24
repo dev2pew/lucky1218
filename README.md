@@ -16,6 +16,70 @@ This note contains mods for my personal `Minecraft` setup version `1.21.8` with 
 | 🟥    | Failed         | Has problems such as incompatibilities or performance issues                                                                                              |
 | 🕸    | Discarded      | Discarded during parsing stage or because of personal preference                                                                                          |
 
+## Get Started
+
+### Prerequisites
+
+1. Get [Git Bash](https://git-scm.com/install);
+2. Check if `git.exe` works in `cmd.exe`.
+
+Expected output...
+
+```log
+git.exe
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+<...>
+
+```
+
+- Now you can proceed to the installation!
+
+### Installing
+
+> It is recommended to have separate profiles for each version family.
+
+0. Close all game processes;
+1. Open your preferred `Minecraft` Launcher;
+2. Choose game version `1.21.8`;
+3. Install [Fabric Loader](https://fabricmc.net/use/installer/);
+4. Launch and close `Minecraft`;
+5. Locate and open game home folder;
+6. Open `cmd.exe` in here and clone this repo...
+
+```bat
+git.exe clone https://github.com/dev2pew/lucky1218.git
+
+```
+
+7. Wait until it finishes downloading.
+
+- Now you're good to go!
+
+### Updating
+
+0. Close all running game processes;
+1. Locate and open game home folder;
+2. Double-click `pull.bat`;
+3. Type `y` and hit `[Enter]`;
+4. Wait until the pull finishes.
+
+- Now you're good to go! All your configurations and progress will be saved. The script will pull all the changes, then the script will override them with your data.
+
+### Cleaning
+
+0. Close all running game processes;
+1. Locate and open game home folder;
+2. Double-click `clean.bat`;
+3. Wait until the clean finishes.
+
+- Now you're good to go! The script cleans and hides unnecessary folders. It does not affect your progress or data.
+
 ## Issues
 
 | State | Issue                                                                                                                                                                                                              | Caused By                                                                                                              | Extra                                                                                                                                                                                                                                                                                                                                                                  |
