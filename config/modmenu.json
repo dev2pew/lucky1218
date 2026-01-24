@@ -1,5 +1,5 @@
 {
-  "sorting": "ascending",
+  "sorting": "has_update",
   "count_libraries": false,
   "compact_list": true,
   "count_children": false,
