@@ -183,5 +183,8 @@ FOR /D /R %%D IN (*.rem *.bak *.tmp *.old) DO (
     ATTRIB +H "%%D"
 )
 
+@REM PREVENT CRASH FROM EARS MOD
+ATTRIB -H "ears-debug.log"
+
 ECHO all done.
 PAUSE
