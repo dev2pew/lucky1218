@@ -5,7 +5,7 @@ SETLOCAL ENABLEEXTENSIONS
 CD /D "%~dp0"
 
 WHERE git.exe >NUL 2>&1
-IF ERRORLEVEL 1 (
+IF %ERRORLEVEL% NEQ 0 (
     ECHO you have to install git bash.
     PAUSE
     EXIT /B 1
