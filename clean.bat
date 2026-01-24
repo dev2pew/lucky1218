@@ -4,6 +4,8 @@ SETLOCAL ENABLEEXTENSIONS
 
 CD /D "%~dp0"
 
+ECHO performing cleaning...
+
 FOR %%C IN (
     .fabric
     .mixin.out
@@ -43,3 +45,6 @@ FOR /R %%F IN (*.rem *.bak *.tmp *.old *.log .gitignore) DO (
 FOR /D /R %%D IN (*.rem *.bak *.tmp *.old) DO (
     ATTRIB +H "%%D"
 )
+
+ECHO all done.
+PAUSE
