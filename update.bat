@@ -28,22 +28,40 @@ IF /I "%confirm%"=="y" (
 
 :MAIN
 
+git.exe merge --abort >NUL 2>&1
+git.exe rebase --abort >NUL 2>&1
+
+IF EXIST ".git\index.lock" (
+    DEL /F /Q ".git\index.lock"
+)
+
+git.exe reset --hard HEAD >NUL
+git.exe clean -fd >NUL
 git.exe stash push -m "config.tmp" -- config/ >NUL
 git.exe stash push -u -m "mods.rem" >NUL
 
-git.exe stash list | FINDSTR /I "mods.rem" >NUL
-IF NOT ERRORLEVEL 1 (
+git.exe stash list | findstr.exe /I "mods.rem" >NUL
+
+IF NOT %ERRORLEVEL% 1 (
     git.exe stash drop "stash^{/mods.rem}" >NUL
 )
 
 git.exe pull --rebase origin main
 
+IF %ERRORLEVEL% 1 (
+    ECHO pull failed - likely a conflict that could not be auto-resolved.
+    ECHO please resolve the conflict manually, then re-run the script.
+    PAUSE
+    EXIT /B 1
+)
+
 git.exe stash list | FINDSTR /I "config.tmp" >NUL
-IF NOT ERRORLEVEL 1 (
+
+IF NOT %ERRORLEVEL% 1 (
     git.exe stash pop >NUL
 )
 
-FOR /R %%F IN (*.rem *.bak) DO (
+FOR /R %%F IN (*
     ATTRIB +H "%%F"
 )
 
