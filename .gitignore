@@ -29,9 +29,11 @@
 # ignore caches and path based configs
 config/worldedit/.archive-unpack/**
 config/worldedit/sessions/**
+config/spark/tmp/**
+config/spark/tmp-client/**
+config/spark/profile-**
 
 config/replaymod-screenshotsettings.json
-
 config/crash_assistant/modlist.json
 config/skinrestore/mojang_profile_cache.json
 config/jade/profiles/usernamecache.json
@@ -39,11 +41,22 @@ config/skinshuffle/presets.json
 config/skinshuffle/skin-caches.json
 config/voicechat/username-cache.json
 
-config/spark/tmp/**
-config/spark/tmp-client/**
-config/spark/profile-**
-
 config/tetrismc/high_scores.json
+config/jade/usernamecache.json
+config/skinshuffle.rem/skin-caches.json.rem
 
 # old versions
 **/prev
+
+# not needed
+*.rem/
+*.rem
+
+*.old/
+*.old
+
+*.bak/
+*.bak
+
+*.log/
+*.log
