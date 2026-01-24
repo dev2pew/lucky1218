@@ -12,14 +12,14 @@ IF ERRORLEVEL 1 (
 )
 
 IF EXIST ".git" (
-    ECHO you already cloned the repo.
+    ECHO repo exists. use pull.bat instead.
     PAUSE
     EXIT /B 1
 )
 
 :ASK
 
-SET /P confirm="are you sure you want to delete all and clone... (Y/n) >> "
+SET /P confirm="are you sure, your data will be lost... (Y/n) >> "
 IF /I "%confirm%"=="y" (
     GOTO MAIN
 ) ELSE {
@@ -28,15 +28,10 @@ IF /I "%confirm%"=="y" (
 
 :MAIN
 
-RMDIR /S /Q "config"
-RMDIR /S /Q "mods"
-RMDIR /S /Q "resourcepacks"
-RMDIR /S /Q "shaderpacks"
+git.exe init
+git.exe remote add origin https://github.com/dev2pew/lucky1218.git
+git.exe fetch origin main
+git.exe reset --hard origin/main
 
-DEL "options.txt"
-DEL "clean.bat"
-DEL "winevent.ps1"
-
-git.exe clone https://github.com/dev2pew/lucky1218.git .
-
+ECHO all done.
 PAUSE
