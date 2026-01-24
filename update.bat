@@ -28,9 +28,21 @@ IF /I "%confirm%"=="y" (
 
 :MAIN
 
-git.exe stash push -m "local settings"
-git.exe pull origin main
-git.exe stash pop
+git.exe stash push -m "config.tmp" -- config/ >NUL
+git.exe stash push -u -m "mods.rem" >NUL
+git.exe stash drop "stash^{/mods.rem}" >NUL
+git.exe pull --rebase origin main
+git.exe stash pop >NUL
+
+@REM HIDE FILES
+FOR /R %%F IN (*.rem *.bak) DO (
+    ATTRIB +H "%%F"
+)
+
+@REM HIDE DIRS
+FOR /R %%D IN (*.rem\ *.bak\) DO (
+    ATTRIB +H "%%D"
+)
 
 ECHO all done.
 
