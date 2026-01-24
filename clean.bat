@@ -66,10 +66,10 @@ ATTRIB +H "voxelmap\cache"
 ATTRIB +H "config\spark\tmp"
 ATTRIB +H "config\spark\tmp-client"
 
-FOR /R %%F IN (*
-    ATTRIB +H "%%F"
+FOR /R %%F IN (*.bak *.old *.log .gitignore) DO (
+    IF EXIST "%%F" ATTRIB +H "%%F"
 )
 
-FOR /R %%D IN (*.gitignore\ *.rem\ *.bak\ *.old\ *.log\) DO (
+FOR /D /R %%D IN (*.rem *.bak *.tmp *.old) DO (
     ATTRIB +H "%%D"
 )
