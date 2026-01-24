@@ -14,8 +14,8 @@
     "blockVolume": 0.9
   },
   "wind": {
-    "strength": 0.4,
-    "strengthVariance": 0.2,
+    "strength": 0.8,
+    "strengthVariance": 0.4,
     "gustFrequency": 0.2,
     "modulationSpeed": 0.04,
     "yLevelAdjustment": true

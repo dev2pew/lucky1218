@@ -1,0 +1,8 @@
+#tntvisualizer settings
+#Sat Jan 24 00:36:08 QYZT 2026
+autoPullEnabled=false
+renderExplosionRange=false
+renderPositioning=false
+renderRodTrajectory=true
+renderTimer=false
+renderTrajectories=true
