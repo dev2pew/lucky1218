@@ -237,7 +237,24 @@
       "particle_effects:glowing": true,
       "particle_effects:conduit_power": true,
       "particle_effects:darkness": true,
-      "particle_effects:speed": true
+      "particle_effects:speed": true,
+      "physicsmod:splash": true,
+      "physicsmod:dust": true,
+      "physicsmod:splash_small": true,
+      "physicsmod:splash_explosion": true,
+      "physicsmod:rain": true,
+      "physicsmod:snow": true,
+      "visuality:small_slime_blob": true,
+      "visuality:bone": true,
+      "visuality:big_slime_blob": true,
+      "visuality:feather": true,
+      "visuality:sparkle": true,
+      "visuality:charge": true,
+      "visuality:wither_bone": true,
+      "visuality:water_circle": true,
+      "visuality:soul": true,
+      "visuality:medium_slime_blob": true,
+      "visuality:emerald": true
     }
   },
   "detail_settings": {
@@ -326,6 +343,6 @@
     "instant_sneak": false,
     "prevent_shaders": false,
     "steady_debug_hud": true,
-    "steady_debug_hud_refresh_interval": 1
+    "steady_debug_hud_refresh_interval": 2
   }
 }

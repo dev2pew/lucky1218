@@ -23,7 +23,7 @@
 !options.txt
 !clean.bat
 !clone.bat
-!update.bat
+!pull.bat
 !winevent.ps1
 
 # ignore caches and path based configs
