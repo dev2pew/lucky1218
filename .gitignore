@@ -38,3 +38,12 @@ config/jade/profiles/usernamecache.json
 config/skinshuffle/presets.json
 config/skinshuffle/skin-caches.json
 config/voicechat/username-cache.json
+
+config/spark/tmp/**
+config/spark/tmp-client/**
+config/spark/profile-**
+
+config/tetrismc/high_scores.json
+
+# old versions
+**/prev
