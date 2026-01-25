@@ -136,7 +136,7 @@
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
 	#If you want to save manually: disable this and use '/crash_assistant modlist save' command.
-	auto_update = false
+	auto_update = true
 	#If enabled, will add resourcepacks to modlist.json
 	#After filename where will be ' (resourcepack)' suffix.
 	add_resourcepacks = true
@@ -238,11 +238,11 @@
 	modpack_logo_large_mode = false
 	#Limit modpack logo height. Default is -1, which means it's calculated automatically.
 	#By default, this should not be needed. But if you have heavily customized GUI or using
-	#a rectangle logo instead of square, you may want to decrease its size, so this option could be needed in such case. 
+	#a rectangle logo instead of square, you may want to decrease its size, so this option could be needed in such case.
 	limit_modpack_logo_height = 256
 	#This option would be needed only if you limited modpack logo height.
 	#Otherwise, the logo will consume all available horizontal space.
-	#If true, the logo will be centered. If false, it will be aligned to the top. 
+	#If true, the logo will be centered. If false, it will be aligned to the top.
 	modpack_logo_aligned_center = false
 
 #Checks crash_assistant compatibility with other incompatible mods.
