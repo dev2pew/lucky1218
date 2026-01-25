@@ -115,7 +115,7 @@
   "mobRagdollLimit": 8,
   "clothEntityRange": 64.0,
   "clothForceArmor": false,
-  "oceanPuddles": true,
+  "oceanPuddles": false,
   "oceanFoamAmount": 0.8,
   "oceanFoamOpacity": 0.4,
   "cudaLiquids": false,
