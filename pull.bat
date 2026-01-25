@@ -78,6 +78,7 @@ FOR %%D IN (
     shaderpacks
     skin_overrides
     voxelmap
+    xaero
 ) DO (
     IF EXIST "%%D" (
         ECHO backing up %%D...
@@ -127,6 +128,7 @@ FOR %%D IN (
     shaderpacks
     skin_overrides
     voxelmap
+    xaero
 ) DO (
     IF EXIST "..\pull.tmp\%%D" (
         ECHO restoring %%D...
