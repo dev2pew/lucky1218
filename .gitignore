@@ -48,6 +48,8 @@ config/tetrismc/high_scores.json
 config/jade/usernamecache.json
 config/skinshuffle.rem/skin-caches.json.rem
 
+config/spark/activity.json
+
 # old versions
 **/prev
 
