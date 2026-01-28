@@ -35,6 +35,7 @@ config/worldedit/sessions/**
 config/spark/tmp/**
 config/spark/tmp-client/**
 config/spark/profile-**
+config/spark/activity-**
 
 config/replaymod-screenshotsettings.json
 config/crash_assistant/modlist.json
@@ -47,8 +48,6 @@ config/voicechat/username-cache.json
 config/tetrismc/high_scores.json
 config/jade/usernamecache.json
 config/skinshuffle.rem/skin-caches.json.rem
-
-config/spark/activity.json
 
 # old versions
 **/prev
