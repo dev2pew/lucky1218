@@ -133,7 +133,7 @@
       "eg_particle_interactions:block_high_velocity": true,
       "farmersdelight:star": true,
       "farmersdelight:steam": true,
-      "particlerain:ripple": true,
+      "particlerain:ripple": false,
       "particlerain:streak": true,
       "particlerain:mist": true,
       "particlerain:dust_haze": true,
@@ -251,10 +251,17 @@
       "visuality:sparkle": true,
       "visuality:charge": true,
       "visuality:wither_bone": true,
-      "visuality:water_circle": true,
+      "visuality:water_circle": false,
       "visuality:soul": true,
       "visuality:medium_slime_blob": true,
-      "visuality:emerald": true
+      "visuality:emerald": true,
+      "frightsdelight:slime_bubble": true,
+      "frightsdelight:soul_berry_bubble": true,
+      "frightsdelight:spider_eye_bubble": true,
+      "frightsdelight:cobweb_bubble": true,
+      "frightsdelight:rotten_flesh_bubble": true,
+      "frightsdelight:ghast_tear_bubble": true,
+      "frightsdelight:wither_berry_bubble": true
     }
   },
   "detail_settings": {
